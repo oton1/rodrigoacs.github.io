@@ -1,4 +1,4 @@
-const db = require('./db')
+const db = require('./savetime')
 
 const User = db.sequelize.define("users", {
   id: {

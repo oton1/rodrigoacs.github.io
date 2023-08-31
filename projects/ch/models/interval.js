@@ -1,5 +1,5 @@
 const User = require('./user')
-const db = require('./db')
+const db = require('./savetime')
 
 const Interval = db.sequelize.define("intervals", {
   id: {
@@ -30,3 +30,4 @@ const Interval = db.sequelize.define("intervals", {
 })
 
 module.exports = Interval
+
